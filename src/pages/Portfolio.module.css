@@ -11,12 +11,12 @@
   font-size: 2rem;
 }
 
-.portfolioPiece a {
+.portfolioPiece .link {
   color: rgb(27, 24, 20);
   text-decoration: none;
 }
 
-.portfolioPiece a:hover {
+.portfolioPiece .link:hover {
   color: black;
   text-decoration: underline;
   cursor: pointer;
