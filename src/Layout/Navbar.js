@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className={classes.navSpacing}>
         <NavImage />
         <div className={classes.navLinks}>
-          <h1>Jessie Madsen</h1>
+          <h1>Jessie Madsen IS A BALLER!</h1>
           <img src={NavDivider} alt="" />
           <NavLink 
             to="/"
