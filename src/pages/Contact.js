@@ -17,7 +17,7 @@ const ContactPage = () => {
             <a 
               href="/" 
               target="_blank"
-              rel="external"
+              rel="external noreferrer"
             >
               <img 
                 src={InLogo}
@@ -27,7 +27,7 @@ const ContactPage = () => {
             </a>
           </div>
           <div className={classes.contactText}>
-            <p>View my profile on <a href="/" target="_blank" rel="external">LinkedIn<sup className={classes.superscript}>&reg;</sup></a></p>
+            <p>View my profile on <a href="/" target="_blank" rel="external noreferrer">LinkedIn<sup className={classes.superscript}>&reg;</sup></a></p>
           </div>
         </div>
         <div className={classes.contactOption}>
@@ -35,7 +35,7 @@ const ContactPage = () => {
             <a 
               href="https://github.com/Jessiroo" 
               target="_blank"
-              rel="external"
+              rel="external noreferrer"
             >
               <img 
                 src={GitHubLogo}
@@ -45,7 +45,7 @@ const ContactPage = () => {
             </a>
           </div>
           <div className={classes.contactText}>
-            <p>Check me out on <a href="https://github.com/Jessiroo" target="_blank" rel="external">GitHub<sup className={classes.superscript}>&reg;</sup></a></p>
+            <p>Check me out on <a href="https://github.com/Jessiroo" target="_blank" rel="external noreferrer">GitHub<sup className={classes.superscript}>&reg;</sup></a></p>
           </div>
         </div>
       </section>

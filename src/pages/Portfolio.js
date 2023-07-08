@@ -1,5 +1,3 @@
-import { Link, useNavigate } from "react-router-dom";
-
 import ContentCard from "../Layout/ContentCard";
 import Divider from "../Layout/Divider";
 import GitHubMark from "../components/GitHubLogo";
@@ -10,11 +8,6 @@ import ReactMeals from '../assets/ReactMeals.png';
 import HardHat from '../assets/HardHat.jpeg';
 
 const PortfolioPage = () => {
-  const navigate = useNavigate();
-
-  const linkClickHandler = (url) => {
-    navigate(url);
-  };
 
   return (
     <ContentCard>
@@ -26,13 +19,13 @@ const PortfolioPage = () => {
           <a 
             href="https://bright-cranachan-cecabf.netlify.app/"
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
             className={classes.link}
           ><h2>Happy Paws</h2></a>
           <a 
             href="https://bright-cranachan-cecabf.netlify.app/"
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
             className={classes.portfolioPieceImage}
           >
             <img 
@@ -44,7 +37,7 @@ const PortfolioPage = () => {
           <a 
             href="https://github.com/Jessiroo/happy-paws"
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
           >
             <GitHubMark />
           </a>
@@ -54,13 +47,13 @@ const PortfolioPage = () => {
           <a 
             href="https://effervescent-choux-5431b3.netlify.app/"
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
             className={classes.link}
           ><h2>React Meals</h2></a>
           <a 
             href="https://effervescent-choux-5431b3.netlify.app/"
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
             className={classes.portfolioPieceImage}
           >
             <img 
@@ -73,7 +66,7 @@ const PortfolioPage = () => {
           <a 
             href="https://github.com/Jessiroo/react-meals"
             target="_blank"
-            rel="external"
+            rel="external noreferrer"
           >
             <GitHubMark />
           </a>
