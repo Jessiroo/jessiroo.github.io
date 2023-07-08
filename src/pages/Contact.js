@@ -38,11 +38,11 @@ const ContactPage = () => {
               src={GitHubLogo}
               className={classes.logos}
               alt="GitHub logo and link" 
-              onClick={linkClickHandler.bind(null, '/')}
+              onClick={linkClickHandler.bind(null, 'https://github.com/Jessiroo')}
             /> 
           </div>
           <div className={classes.contactText}>
-            <p>Check me out on <Link to="/">GitHub<sup className={classes.superscript}>&reg;</sup></Link></p>
+            <p>Check me out on <Link to="https://github.com/Jessiroo">GitHub<sup className={classes.superscript}>&reg;</sup></Link></p>
           </div>
         </div>
       </section>
