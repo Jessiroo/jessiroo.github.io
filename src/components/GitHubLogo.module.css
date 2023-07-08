@@ -1,0 +1,27 @@
+.githubLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.logos {
+  width: 40px;
+
+  .logo {
+    width: 40px;
+  }
+
+  .logoWhite {
+    display: none;
+    width: 40px;
+  }
+}
+
+.logos:hover {
+  .logoWhite {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .logo {
+    display: none;
+  }
+}

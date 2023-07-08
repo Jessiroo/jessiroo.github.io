@@ -1,0 +1,108 @@
+/* NAVBAR */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(105, 19, 39);
+  color: rgb(240, 231, 218);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 25rem;
+  z-index: 50;
+  box-shadow: 5px 0 8px rgba(27, 24, 20, 0.6);
+}
+
+.navSpacing {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+
+.navbarDecoration {
+  display: flex;
+  justify-content: center;
+}
+
+.navbarDecoration img {
+  bottom: 5px;
+  height: 175px;
+  /* width: 90%; */
+  z-index: 60;
+}
+
+/* NAVLINKS */
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  z-index: 60;
+}
+
+.navLinks a {
+  color: rgb(240, 231, 218);
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.navLinks .active {
+  text-decoration: underline;
+}
+
+/* NAVBAR COLLAPSE */
+.navbarControl {
+  position: absolute;
+  margin-left: 23.2rem;
+}
+
+.navbarControl button {
+  background-color: rgb(105, 19, 39);
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem 0.7rem 1rem;
+  color: rgb(240, 231, 218);
+  border: none;
+  border-radius: 50%;
+  display: none;
+}
+
+.navbarControl button:hover {
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 912px) {
+  .navbar {
+    left: -24rem;
+  }
+
+  .navbarOpen {
+    left: 0;
+  }
+
+  .navbarControl .navbarButtonActive {
+    display: block;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbarOpen {
+    width: 85%;
+  }
+
+  .navbarControl {
+    margin-left: 92.5%;
+  }
+}

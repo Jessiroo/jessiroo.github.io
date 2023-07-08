@@ -1,0 +1,65 @@
+.portfolioDivider {
+  background-color: rgb(27, 24, 20);
+  height: 1px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* PORTFOLIO PIECES */
+.portfolioPiece h2 {
+  font-size: 2rem;
+}
+
+.portfolioPiece a {
+  color: rgb(27, 24, 20);
+  text-decoration: none;
+}
+
+.portfolioPiece a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.portfolioPieceImage {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioPieceImage img {
+  /* width: 100%; */
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: -1rem;
+}
+
+.portfolioPieceImage img:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0);
+  cursor: pointer;
+}
+
+/* COMING SOON */
+.comingSoon {
+  display: flex;
+  justify-content: center;
+}
+
+.comingSoon img {
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: -1rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .portfolioPieceImage img {
+    width: 100%;
+  }
+
+  .comingSoon img {
+    width: 100%;
+  }
+}

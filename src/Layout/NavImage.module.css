@@ -1,0 +1,33 @@
+.navImage {
+  /* margin-top: 1rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.imageDecoration1 {
+  background-color: black;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(27, 24, 20, 0.75);
+  transform: skew(15deg, 0);
+  z-index: 60;
+}
+
+.imageDecoration2 {
+  background-color: rgb(240, 231, 218);
+  padding: 0.7rem;
+  box-shadow: 0 0 8px rgba(27, 24, 20, 0.75);
+  transform: skew(-30deg, 0);
+  z-index: 70;
+}
+
+.image {
+  object-fit: cover;
+  width: 225px;
+  height: 225px;
+  box-shadow: 0 0 8px rgba(27, 24, 20, 0.75);
+  border-radius: 5px;
+  margin-top: 0.2rem;
+  transform: skew(17.5deg);
+  z-index: 80;
+  image-rendering: smooth;
+}

@@ -1,0 +1,109 @@
+.contactForm {
+  margin-top: -1rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20% 0;
+}
+
+.input label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Cinzel', serif;
+}
+
+.input input, textarea {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
+  /* background-color: rgb(245, 241, 235); */
+}
+
+/* INVALID */
+.invalid .Area {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.invalid .messageArea {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.invalid input {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.errorText {
+  margin: 0 0 0.5rem;
+  color: rgb(27, 24, 20);
+}
+
+/* BUTTON */
+.submit {
+  display: flex;
+  justify-content: right;
+  margin-right: 20%;
+}
+
+.submit button {
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(105, 19, 39);
+  color: rgb(240, 231, 218);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 0.3rem;
+}
+
+.submit button:hover {
+  background-color: rgb(130, 25, 50);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .input {
+    margin: 0 10% 0;
+  }
+  .submit {
+    margin-right: 10%;
+  }  
+}
+
+@media (max-width: 912px) {
+  .input {
+    margin: 0 20% 0;
+  }
+  .submit {
+    margin-right: 20%;
+  }  
+}
+
+@media (max-width: 750px) {
+  .input {
+    margin: 0 10% 0;
+  }
+  .submit {
+    margin-right: 10%;
+  }  
+}
+
+@media (max-width: 540px) {
+  .input {
+    margin: 0;
+  }
+  .submit {
+    margin-right: 0;
+  }  
+}
