@@ -26,7 +26,7 @@ const QualificationsPage = () => {
           <div className={classes.qualitiesList}>
             <ul>
               <li>Varied skillset with ability to learn new concepts quickly</li>
-              <li>Complex critical thinking and problem-solving abilities</li>
+              <li>Complex critical thinking and problem solving abilities</li>
               <li>Meticulous attention to detail</li>
               <li>Work well individually or as part of a team</li>
             </ul>
@@ -41,9 +41,9 @@ const QualificationsPage = () => {
         </div>
         <p><i>Shock Trauma Intensive Care Unit - Intermountain Medical Center</i></p>
         <ul>
-          <li>Utilized complex critical thinking and problem-solving caring for patients with a variety of multisystem disorders and traumas</li>
+          <li>Utilized complex critical thinking and problem solving caring for patients with a variety of multisystem disorders and traumas</li>
           <li>Personally managed a 1-2 patient workload in the intensive care setting while maintaining awareness of other patient and nursing needs</li>
-          <li>Practiced prioritization and time-management in a high-stakes environment</li>
+          <li>Practiced prioritization and time management in a high-stakes environment</li>
           <li>Collaborated closely with physician teams to ensure appropriate care</li>
           <li>Employed interdisciplinary teamwork in critical situations</li>
         </ul>

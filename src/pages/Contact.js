@@ -15,7 +15,7 @@ const ContactPage = () => {
         <div className={classes.contactOption}>
           <div className={classes.contactLogo}>
             <a 
-              href="/" 
+              href="https://www.linkedin.com/in/jessie-madsen/" 
               target="_blank"
               rel="external noreferrer"
             >
@@ -27,7 +27,7 @@ const ContactPage = () => {
             </a>
           </div>
           <div className={classes.contactText}>
-            <p>View my profile on <a href="/" target="_blank" rel="external noreferrer">LinkedIn<sup className={classes.superscript}>&reg;</sup></a></p>
+            <p>View my profile on <a href="https://www.linkedin.com/in/jessie-madsen/" target="_blank" rel="external noreferrer">LinkedIn<sup className={classes.superscript}>&reg;</sup></a></p>
           </div>
         </div>
         <div className={classes.contactOption}>
