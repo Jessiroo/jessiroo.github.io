@@ -4,6 +4,7 @@ import GitHubMark from "../components/GitHubLogo";
 import classes from './Portfolio.module.css';
 
 import HappyPaws from '../assets/HappyPaws.png';
+import TicTacToe from '../assets/TicTacToe.png';
 import ReactMeals from '../assets/ReactMeals.png';
 import HardHat from '../assets/HardHat.jpeg';
 
@@ -43,6 +44,36 @@ const PortfolioPage = () => {
           </a>
         </div>
         <div className={classes.portfolioDivider}/>
+
+        <div className={classes.portfolioPiece}>
+          <a 
+            href="https://whimsical-tartufo-13bbd8.netlify.app/"
+            target="_blank"
+            rel="external noreferrer"
+            className={classes.link}
+          ><h2>Tic Tac Toe</h2></a>
+          <a 
+            href="https://whimsical-tartufo-13bbd8.netlify.app/"
+            target="_blank"
+            rel="external noreferrer"
+            className={classes.portfolioPieceImage}
+          >
+            <img 
+              src={TicTacToe} 
+              alt='Tic Tac Toe app.' 
+            />
+          </a>
+          <p>This is a tic tac toe game using features like context, custom hooks and reducers.</p>
+          <a 
+            href="https://github.com/Jessiroo/tic-tac-toe"
+            target="_blank"
+            rel="external noreferrer"
+          >
+            <GitHubMark />
+          </a>
+        </div>
+        <div className={classes.portfolioDivider}/>
+
         <div className={classes.portfolioPiece}>
           <a 
             href="https://effervescent-choux-5431b3.netlify.app/"
