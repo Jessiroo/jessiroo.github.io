@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(105, 19, 39);
-  color: rgb(240, 231, 218);
   position: fixed;
   top: 0;
   left: 0;
@@ -50,7 +49,7 @@
 .navLinks h1 {
   font-size: 2.2rem;
   font-weight: 500;
-  color: rgb(250, 242, 231);
+  color: rgb(251, 246, 250);
   z-index: 80;
 }
 
@@ -62,7 +61,7 @@
 
 .navLinks a {
   /* color: rgb(240, 231, 218); */
-  color: rgb(250, 242, 231);
+  color: rgb(251, 246, 250);
   font-size: 1.5rem;
   text-decoration: none;
   /* padding: 0.2rem; */
@@ -70,7 +69,7 @@
 
 .navLinks a:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 
 .navLinks .active {
@@ -89,14 +88,14 @@
   font-size: 2rem;
   padding: 0.5rem 0.8rem 0.8rem 1.5rem;
   /* color: rgb(240, 231, 218); */
-  color: rgb(250, 242, 231);
+  color: rgb(251, 246, 250);
   border: none;
   border-radius: 50%;
   display: none;
 }
 
 .navbarControl button:hover {
-  color: white;
+  color: black;
 }
 
 /* RESPONSIVE */
