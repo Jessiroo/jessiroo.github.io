@@ -1,5 +1,3 @@
-/* @import url("https://use.typekit.net/yex5uch.css"); */
-
 /* NAVBAR */
 .navbar {
   display: flex;
@@ -92,10 +90,6 @@
   border: none;
   border-radius: 50%;
   display: none;
-  /* font-family: "droid-sans", sans-serif, serif;
-  font-weight: 400;
-  font-style: normal; */
-  font-family: serif;
 }
 
 .navbarControl button:hover {

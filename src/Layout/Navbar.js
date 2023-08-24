@@ -39,11 +39,11 @@ const Navbar = () => {
         <button 
           className={openNavbarButtonClass}
           onClick={openNavbarHandler}
-        >&#11166;</button>
+        >&#10095;</button>
         <button 
           className={closeNavbarButtonClass}
           onClick={closeNavbarhandler}
-        >&#11164;</button>
+        >&#10094;</button>
       </div>
       <div className={classes.navSpacing}>
         <NavImage />
