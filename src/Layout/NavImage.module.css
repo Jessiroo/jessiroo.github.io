@@ -13,7 +13,8 @@
 }
 
 .imageDecoration2 {
-  background-color: rgb(240, 231, 218);
+  background-color: rgb(250, 242, 231);
+  /* background-color: rgb(240, 231, 218); */
   padding: 0.7rem;
   box-shadow: 0 0 8px rgba(27, 24, 20, 0.75);
   transform: skew(-30deg, 0);
