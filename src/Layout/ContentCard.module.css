@@ -2,6 +2,7 @@
   flex-direction: column;
   margin-left: 25rem;
   margin-top: 40px;
+  margin-bottom: 40px;
   padding: 1.5rem 10% 1.5rem;
   white-space: pre-wrap;
   color: rgb(27, 24, 20);
@@ -54,10 +55,33 @@
   .contentCard h1 {
     font-size: 2rem;
   }
+
+  .contentCardDecoration {
+    display: none;
+  }
 }
 
 @media(min-width: 2000px) {
   .contentCard {
     padding: 1.5rem 25% 1.5rem;
+    margin-left: 25%;
+  }
+
+  .contentCardDecoration {
+    display: none;
+  }
+
+  .contentCard h1 {
+    font-size: 5rem;
+  }
+
+  .contentCard p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 3000px) {
+  .contentCard p {
+    font-size: 1.8rem;
   }
 }

@@ -80,6 +80,9 @@
 .navbarControl {
   position: absolute;
   margin-left: 23.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 .navbarControl button {
@@ -118,5 +121,24 @@
 
   .navbarControl {
     margin-left: 92.5%;
+  }
+}
+
+@media(min-width: 2000px) {
+  .navbar {
+    width: 25%;
+  }
+
+  .navbarDecoration img {
+    width: 75%;
+    height: auto;
+  }
+
+  .navLinks h1 {
+    font-size: 4rem;
+  }
+
+  .navLinks a {
+    font-size: 3rem;
   }
 }

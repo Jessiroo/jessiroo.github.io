@@ -31,3 +31,39 @@
   z-index: 80;
   image-rendering: smooth;
 }
+
+@media(max-width: 540px) {
+  .imageDecoration1 {
+    width: 60%;
+    padding: 1rem;
+    aspect-ratio: 1;
+  }
+
+  .imageDecoration2 {
+    width: 100%;
+    aspect-ratio: 1;
+  }
+
+  .image {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media(min-width: 2000px) {
+  .imageDecoration1 {
+    width: 60%;
+    padding: 3rem;
+    aspect-ratio: 1;
+  }
+
+  .imageDecoration2 {
+    width: 100%;
+    aspect-ratio: 1;
+  }
+
+  .image {
+    height: 100%;
+    width: 100%;
+  }
+}

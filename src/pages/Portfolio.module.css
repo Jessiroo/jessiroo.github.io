@@ -63,3 +63,9 @@
     width: 100%;
   }
 }
+
+@media(min-width: 2000px) {
+  .portfolioPiece h2 {
+    font-size: 3.5rem;
+  }
+}
