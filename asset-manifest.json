@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.160f132d.css",
-    "main.js": "/static/js/main.83624955.js",
+    "main.css": "/static/css/main.046f7a0e.css",
+    "main.js": "/static/js/main.69be7dba.js",
     "static/js/787.973b9361.chunk.js": "/static/js/787.973b9361.chunk.js",
     "static/media/HappyPaws.png": "/static/media/HappyPaws.a45dce275867dec8ca71.png",
     "static/media/HardHat.jpeg": "/static/media/HardHat.16c9d01bf392ec4a425e.jpeg",
+    "static/media/Background.jpg": "/static/media/Background.dbd11511030eabf43e00.jpg",
     "static/media/ReactMeals.png": "/static/media/ReactMeals.20e79f4174f631b6d66b.png",
-    "static/media/Background.jpg": "/static/media/Background.43477c985f1f762e3a52.jpg",
     "static/media/Decoration2.png": "/static/media/Decoration2.f92feb030445ca9d3e59.png",
     "static/media/Jessie.jpg": "/static/media/Jessie.cb2ddf071ee5cc725ba8.jpg",
     "static/media/TicTacToe.png": "/static/media/TicTacToe.5a51459f7029376116a8.png",
     "static/media/Decoration1.png": "/static/media/Decoration1.8a345d3dc71391e970eb.png",
     "static/media/Divider.png": "/static/media/Divider.7e35dc7d2f8e1efc88fb.png",
     "index.html": "/index.html",
-    "main.160f132d.css.map": "/static/css/main.160f132d.css.map",
-    "main.83624955.js.map": "/static/js/main.83624955.js.map",
+    "main.046f7a0e.css.map": "/static/css/main.046f7a0e.css.map",
+    "main.69be7dba.js.map": "/static/js/main.69be7dba.js.map",
     "787.973b9361.chunk.js.map": "/static/js/787.973b9361.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160f132d.css",
-    "static/js/main.83624955.js"
+    "static/css/main.046f7a0e.css",
+    "static/js/main.69be7dba.js"
   ]
 }
