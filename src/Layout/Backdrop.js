@@ -3,7 +3,7 @@ import classes from './Backdrop.module.css';
 
 const Backdrop = () => {
   return (
-      <img src={BackgroundImage} className={classes.backdrop} alt='' />
+    <img src={BackgroundImage} className={classes.backdrop} alt='' />
   );
 };
 

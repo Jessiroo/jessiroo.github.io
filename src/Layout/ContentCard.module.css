@@ -63,7 +63,7 @@
 
 @media(min-width: 2000px) {
   .contentCard {
-    padding: 1.5rem 25% 1.5rem;
+    padding: 1.5rem 15% 1.5rem;
     margin-left: 25%;
   }
 
@@ -81,6 +81,10 @@
 }
 
 @media (min-width: 3000px) {
+  .contentCard {
+    padding: 1.5rem 25% 1.5rem;
+  }
+
   .contentCard p, li {
     font-size: 1.8rem;
   }
