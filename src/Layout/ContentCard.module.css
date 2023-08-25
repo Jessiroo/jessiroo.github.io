@@ -75,13 +75,13 @@
     font-size: 5rem;
   }
 
-  .contentCard p {
+  .contentCard p, li {
     font-size: 1.4rem;
   }
 }
 
 @media (min-width: 3000px) {
-  .contentCard p {
+  .contentCard p, li {
     font-size: 1.8rem;
   }
 }
