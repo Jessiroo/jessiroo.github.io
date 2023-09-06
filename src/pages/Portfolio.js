@@ -7,6 +7,7 @@ import HappyPaws from '../assets/HappyPaws.png';
 import TicTacToe from '../assets/TicTacToe.png';
 import ReactMeals from '../assets/ReactMeals.png';
 import HardHat from '../assets/HardHat.jpeg';
+import MinorDivider from "../Layout/MinorDivider";
 
 const PortfolioPage = () => {
 
@@ -43,7 +44,7 @@ const PortfolioPage = () => {
             <GitHubMark />
           </a>
         </div>
-        <div className={classes.portfolioDivider}/>
+        <MinorDivider />
 
         <div className={classes.portfolioPiece}>
           <a 

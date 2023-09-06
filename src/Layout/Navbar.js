@@ -56,15 +56,15 @@ const Navbar = () => {
             onClick={closeNavbarhandler}
           >About Me</NavLink>
           <NavLink 
-            to="/qualifications"
-            className={({ isActive }) => isActive ? classes.active : undefined}
-            onClick={closeNavbarhandler}
-          >Qualifications</NavLink> 
-          <NavLink 
             to="/portfolio"
             className={({ isActive }) => isActive ? classes.active : undefined}
             onClick={closeNavbarhandler}
           >Portfolio</NavLink>
+          <NavLink 
+            to="/qualifications"
+            className={({ isActive }) => isActive ? classes.active : undefined}
+            onClick={closeNavbarhandler}
+          >Qualifications</NavLink> 
           <NavLink 
             to="/contact"
             className={({ isActive }) => isActive ? classes.active : undefined}
