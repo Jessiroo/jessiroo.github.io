@@ -1,0 +1,45 @@
+.portfolioPiece h2 {
+  font-size: 2rem;
+}
+
+.portfolioPiece .link {
+  color: rgb(27, 24, 20);
+  text-decoration: none;
+}
+
+.portfolioPiece .link:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.portfolioPieceImage {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioPieceImage img {
+  /* width: 100%; */
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: -1rem;
+}
+
+.portfolioPieceImage img:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0);
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .portfolioPieceImage img {
+    width: 100%;
+  }
+}
+
+@media(min-width: 2000px) {
+  .portfolioPiece h2 {
+    font-size: 3.5rem;
+  }
+}
