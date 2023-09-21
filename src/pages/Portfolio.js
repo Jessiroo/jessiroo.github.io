@@ -4,6 +4,7 @@ import PortfolioPiece from "../components/PortfolioPiece";
 import classes from './Portfolio.module.css';
 
 import HappyPaws from '../assets/HappyPaws.png';
+import TaskList from '../assets/TaskList.png';
 import TicTacToe from '../assets/TicTacToe.png';
 import ReactMeals from '../assets/ReactMeals.png';
 import HardHat from '../assets/HardHat.jpeg';
@@ -26,13 +27,26 @@ const PortfolioPage = () => {
           This was the first solo project I worked on. It was originally intended to be a small project to practice with, but it quickly grew as I kept coming up with new ideas to expand upon it with new features and functionalities. It has fetch and post requests, makes use of React Router, has a featured carousel, filtering, custom hooks, context, and more...
         </PortfolioPiece>
         <PortfolioPiece
+          header="Interactive Task List"
+          hostedURL="https://silver-flan-9422a2.netlify.app/"
+          siteImage={TaskList}
+          altImgText="Task list website."
+          gitHubLink="https://github.com/Jessiroo/to-do"
+        >
+          <p>This project is a current work in progress with more features planned.</p>
+          <p>This is an interactive task list which includes user authentication and saves individual user task lists. You can add or delete tasks, edit them, or reorder tasks as you desire. User passwords can also be updated, or a link sent if the user's password is forgotten.</p>
+          
+          <p>Create your own account or use the test profile to try it out:</p>
+          <p><b>email:</b> test@test.com  <b>password:</b> testtest</p>
+        </PortfolioPiece>
+        <PortfolioPiece
           header="Tic-Tac-Toe"
           hostedURL="https://whimsical-tartufo-13bbd8.netlify.app/"
           siteImage={TicTacToe}
           altImgText="Tic Tac Toe app."
           gitHubLink="https://github.com/Jessiroo/tic-tac-toe"
         >
-          This is a tic tac toe game using features like context, custom hooks and reducers.
+          This is a tic tac toe game using features like context, custom hooks and reducers. In addition to checking for game win states, it randomizes starting player on subsequent games, keeps score, and can clear the board individually or clear all game data.
         </PortfolioPiece>
         <PortfolioPiece
           header="React Meals"
