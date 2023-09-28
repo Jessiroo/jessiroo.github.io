@@ -1,5 +1,6 @@
 import ContentCard from "../Layout/ContentCard";
 import Divider from "../Layout/Divider";
+import MinorDivider from "../Layout/MinorDivider";
 import classes from './Qualifications.module.css';
 
 const QualificationsPage = () => {
@@ -7,6 +8,8 @@ const QualificationsPage = () => {
     <ContentCard>
       <h1>Work History & Qualifications</h1>
       <Divider />
+      <p>Dedicated and innovative Software Engineer with a strong foundation in web development, specializing in HTML, CSS, JavaScript, React.js, React Router, Redux, Node.js, Express, and MongoDB. Adept at designing and implementing user-friendly interfaces and scalable web applications. Possesses a keen eye for detail and a passion for crafting elegant, efficient code. Excels in collaborative team environments and is committed to continuous learning and professional growth. Ready to leverage my skills and enthusiasm to contribute effectively to dynamic software development projects. </p>
+      <MinorDivider />
       <section className={classes.lists}>
         <div className={classes.qualities}>
           <h2>Qualifications:</h2>
