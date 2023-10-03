@@ -40,6 +40,10 @@
   margin-top: -0.5rem;
 }
 
+.workHistory li {
+  margin-bottom: 0.4rem;
+}
+
 .workLocation {
   display: flex;
   flex-direction: row;

@@ -18,8 +18,7 @@ const QualificationsPage = () => {
               <li>HTML, CSS & JavaScript</li>
               <li>React.js</li>
               <li>React Router & Redux</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
+              <li>Node.js & Express</li>
               <li>MongoDB</li>
             </ul>
           </div>
@@ -36,6 +35,26 @@ const QualificationsPage = () => {
           </div>
         </div>
       </section>
+      <MinorDivider />
+      <section className={classes.workHistory}>
+        <h2>Experience:</h2>
+        <div className={classes.workLocation}>
+          <p><b><u>Seeking Software Engineering Position</u></b></p>
+          <p><b>Sept. 2018 - Aug. 2022</b></p>
+        </div>
+        <ul>
+          <li>Utilizing JavaScript, HTML, and CSS to produce modern web applications</li>
+          <li>Creating web applications using core principles of the React.js ecosystem including components, hooks, state management, reducers, context, etc.</li>
+          <li>Building a variety of front-end single-page applications (SPA’s) and working with RESTful API’s</li>
+          <li>Using packages such as React Router and Redux to create more complicated and functional applications</li>
+          <li>Producing high-quality, scalable, and maintainable web applications utilizing responsive design principles, performance optimization, and ensuring accessibility and functionality across multiple devices with a satisfying UI/UX </li>
+          <li>Working with technologies like NPM and Git for version control</li>
+          <li>Troubleshooting and problem solving issues when they arise</li>
+          <li>Producing clean, maintainable, reusable, and scalable components and code</li>
+          <li>Creating full stack applications using Node.js, Express.js, and MongoDB, or backend services such as Firebase</li>
+        </ul>
+      </section>
+      <MinorDivider />
       <section className={classes.workHistory}>
         <h2>Work History:</h2>
         <div className={classes.workLocation}> 
