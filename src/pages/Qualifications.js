@@ -40,7 +40,7 @@ const QualificationsPage = () => {
         <h2>Experience:</h2>
         <div className={classes.workLocation}>
           <p><b><u>Seeking Software Engineering Position</u></b></p>
-          <p><b>Sept. 2018 - Aug. 2022</b></p>
+          <p><b>Aug. 2022 - Present</b></p>
         </div>
         <ul>
           <li>Utilizing JavaScript, HTML, and CSS to produce modern web applications</li>
