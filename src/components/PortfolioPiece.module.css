@@ -2,6 +2,10 @@
   font-size: 2rem;
 }
 
+.portfolioPiece h2:hover {
+  font-weight: 600;
+}
+
 .portfolioPiece .link {
   color: rgb(27, 24, 20);
   text-decoration: none;
@@ -29,12 +33,18 @@
 .portfolioPieceImage img:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0);
   cursor: pointer;
+  width: calc(75% + 5px);
+  margin-bottom: -2.5px;
 }
 
 /* RESPONSIVE */
 @media (max-width: 1200px) {
   .portfolioPieceImage img {
     width: 100%;
+  }
+
+  .portfolioPieceImage img:hover {
+    width: calc(100% + 5px);
   }
 }
 
