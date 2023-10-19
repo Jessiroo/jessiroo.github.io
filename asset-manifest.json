@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.df6797a0.css",
-    "main.js": "/static/js/main.0c2d0443.js",
+    "main.css": "/static/css/main.04c34713.css",
+    "main.js": "/static/js/main.48cfb4b7.js",
     "static/js/787.973b9361.chunk.js": "/static/js/787.973b9361.chunk.js",
     "static/media/HappyPaws.png": "/static/media/HappyPaws.a45dce275867dec8ca71.png",
     "static/media/HardHat.jpeg": "/static/media/HardHat.16c9d01bf392ec4a425e.jpeg",
@@ -9,17 +9,18 @@
     "static/media/ReactMeals.png": "/static/media/ReactMeals.20e79f4174f631b6d66b.png",
     "static/media/Decoration2.png": "/static/media/Decoration2.f92feb030445ca9d3e59.png",
     "static/media/Jessie.jpg": "/static/media/Jessie.cb2ddf071ee5cc725ba8.jpg",
+    "static/media/TaskList2.png": "/static/media/TaskList2.868a196dbc6258dcb45a.png",
     "static/media/TaskList.png": "/static/media/TaskList.0efb59910c9c2c195ea0.png",
     "static/media/Decoration1.png": "/static/media/Decoration1.6accf7d935a914a19645.png",
     "static/media/TicTacToe.png": "/static/media/TicTacToe.5a51459f7029376116a8.png",
     "static/media/Divider.png": "/static/media/Divider.7e35dc7d2f8e1efc88fb.png",
     "index.html": "/index.html",
-    "main.df6797a0.css.map": "/static/css/main.df6797a0.css.map",
-    "main.0c2d0443.js.map": "/static/js/main.0c2d0443.js.map",
+    "main.04c34713.css.map": "/static/css/main.04c34713.css.map",
+    "main.48cfb4b7.js.map": "/static/js/main.48cfb4b7.js.map",
     "787.973b9361.chunk.js.map": "/static/js/787.973b9361.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6797a0.css",
-    "static/js/main.0c2d0443.js"
+    "static/css/main.04c34713.css",
+    "static/js/main.48cfb4b7.js"
   ]
 }
