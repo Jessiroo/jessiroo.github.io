@@ -15,6 +15,24 @@
   margin-top: -1rem;
 }
 
+.extraPortfolioImage {
+  display: flex;
+  justify-content: center;
+}
+
+.extraPortfolioImage img {
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.extraPortfolioImage img:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0);
+  cursor: pointer;
+  width: calc(75% + 5px);
+  margin-bottom: -2.5px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1200px) {
   .comingSoonImage img {
@@ -23,6 +41,14 @@
 
   .comingSoon img {
     width: 100%;
+  }
+
+  .extraPortfolioImage img {
+    width: 100%;
+  }
+
+  .extraPortfolioImage img:hover {
+    width: calc(100% + 5px);
   }
 }
 

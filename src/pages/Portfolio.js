@@ -5,6 +5,7 @@ import classes from './Portfolio.module.css';
 
 import HappyPaws from '../assets/HappyPaws.png';
 import TaskList from '../assets/TaskList.png';
+import TaskList2 from '../assets/TaskList2.png';
 import TicTacToe from '../assets/TicTacToe.png';
 import ReactMeals from '../assets/ReactMeals.png';
 import HardHat from '../assets/HardHat.jpeg';
@@ -33,11 +34,18 @@ const PortfolioPage = () => {
           altImgText="Task list website."
           gitHubLink="https://github.com/Jessiroo/to-do"
         >
-          <p>This project is a current work in progress with more features planned.</p>
           <p>This is an interactive task list which includes user authentication and saves individual user task lists. You can add or delete tasks, edit them, or reorder tasks as you desire. User passwords can also be updated, or a link sent if the user's password is forgotten.</p>
-          
           <p>Create your own account or use the test profile to try it out:</p>
           <p><b>email:</b> test@test.com  <b>password:</b> testtest</p>
+          <a 
+            href="https://silver-flan-9422a2.netlify.app/"
+            target="_blank"
+            rel="external noreferrer"
+            className={classes.extraPortfolioImage}
+          >
+            <img src={TaskList2} alt="Task list website with alternate color scheme"/>
+          </a>
+          <p>Users can also use the default color scheme, or customize the color scheme to their own liking.</p>
         </PortfolioPiece>
         <PortfolioPiece
           header="Tic-Tac-Toe"
